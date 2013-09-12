@@ -2,6 +2,7 @@ public class TEST {
 	int number;
 	TEST(int z) { number = z; }
 	public static void main(String[] args) {
+		System.out.println("Test");
 		TEST a = new TEST(100);
 		TEST b = a;
 		System.out.println(a.number + ":" + b.number);
