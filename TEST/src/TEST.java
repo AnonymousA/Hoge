@@ -7,5 +7,7 @@ public class TEST {
 		System.out.println(a.number + ":" + b.number);
 		a.number = 0;
 		System.out.println(a.number + ":" + b.number);
+		String[] NN = new String[10];
+		main(NN);
 	}
 }
